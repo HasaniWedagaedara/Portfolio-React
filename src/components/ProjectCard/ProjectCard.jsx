@@ -26,24 +26,13 @@ const ProjectCard = () => {
 
           <div className="project-links">
             {project.demo && (
-              <a
-                href={project.demo}
-                className="btn demo-btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Live Demo
+              <a href={project.demo} className="btn demo-btn">
+                <i className="bx bxl-demo" title="Demo"></i> Demo
               </a>
             )}
-
-            {project.github && (
-              <a
-                href={project.github}
-                className="btn git-btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
+            {project.gitHub && (
+              <a href={project.gitHub} className="btn git-btn">
+                <i className="bx bx-link-external" title="GitHub"></i> GitHub
               </a>
             )}
           </div>

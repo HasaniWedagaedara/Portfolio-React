@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import { assets } from "../../assets/assets";
 
 const Contact = () => {
   return (
@@ -35,7 +36,7 @@ const Contact = () => {
           </div>
           <div>
             <a
-              href="images/Hasani Madhumali-Intern-Resume.pdf"
+              href={assets.resume}
               download
               className="cv"
             >
