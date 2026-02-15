@@ -1,0 +1,100 @@
+.experience-container {
+  width: 100%;
+  padding: 80px 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.experience-container ,
+.experience-content {
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(99, 102, 241, 0.08);
+  padding: 25px 30px;
+  width: 100%;
+  margin-top: 20px;
+  
+}
+
+#education > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+}
+
+.experience-content {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  box-sizing: border-box; 
+  background-color: #ffffff;
+}
+
+
+
+
+.experience-container .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  
+}
+
+.header-container-left h2 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.header-container-left h2:first-child {
+  background: linear-gradient(135deg, #6366f1, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-container-left h2:last-child {
+  color: #475569;
+  font-size: 18px;
+}
+
+.header-container-right p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #64748b;
+}
+
+.experience-content {
+  line-height: 1.7;
+  font-size: 15px;
+  color: #334155;
+  margin-top: 15px;
+}
+
+.experience-content p {
+  margin-bottom: 12px;
+}
+
+
+@media (max-width: 768px) {
+  .experience-container {
+    padding: 60px 6%;
+  }
+
+  .experience-container .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .header-container-left h2 {
+    font-size: 18px;
+  }
+
+  .experience-content {
+    font-size: 14px;
+  }
+}
