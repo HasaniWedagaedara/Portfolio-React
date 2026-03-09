@@ -46,8 +46,8 @@ export const projectsList = [
       "An AI-powered learning assistant that personalizes educational content and adapts to each student's learning pace and preferences.",
     image: aiAgent,
     technologies: ["Python", "Streamlit", "PostgreSQL", "AI Models"],
-    demo: "https://example.com/ai-agent-demo",
-    gitHub: "https://github.com/example/ai-agent-personalized-learning",
+    //demo: "https://example.com/ai-agent-demo",
+    gitHub: "https://github.com/HasaniWedagaedara/AI-Agent-Deploy.git",
   },
   {
     id: 4,
@@ -62,7 +62,8 @@ export const projectsList = [
       "JWT Authentication",
       "SQL",
     ],
-    demo: "https://example.com/bookfair-stall-reservation-demo",
-    gitHub: "https://github.com/example/bookfair-stall-reservation",
+    //demo: "https://example.com/bookfair-stall-reservation-demo",
+    gitHub:
+      "https://github.com/HasaniWedagaedara/Bookfair-stall-reservation-system-Group-Project.git",
   },
 ];
